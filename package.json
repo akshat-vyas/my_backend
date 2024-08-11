@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A complete extensice backend project for practice",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "node",
@@ -12,5 +13,9 @@
     "backend"
   ],
   "author": "Akshat Vyas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
 }
